@@ -81,6 +81,7 @@ function AutoPlay() {
 
   return (
     <>
+    <h1>add</h1>
       {/* Top Navbar */}
       <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
         <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
