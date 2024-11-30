@@ -64,7 +64,6 @@ function AutoPlay() {
     {
       img: "/images/image10.jpg",
     },
-  
   ]);
   const settings = {
     dots: true,
@@ -79,94 +78,96 @@ function AutoPlay() {
 
   return (
     <>
-    <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}>
-      {/* Top Navbar */}
-      <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
-        <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
-        <h1
-          style={{
-            marginLeft: "40px",
-            marginTop: "5px",
-            display: "flex",
-            fontSize: "25px",
-            cursor: "pointer",
-            fontFamily: "Orbitron",
-          }}
-        >
-          <span style={{ fontSize: "35px" }}>
-            <GiPerspectiveDiceSixFacesOne />
-          </span>
-          <span
-            style={{ color: "white", cursor: "pointer", fontWeight: "bold" }}
+      <div
+        style={{backgroundColor:"black"}}
+      >
+        {/* Top Navbar */}
+        <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
+          <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+          <h1
+            style={{
+              marginLeft: "40px",
+              marginTop: "5px",
+              display: "flex",
+              fontSize: "25px",
+              cursor: "pointer",
+              fontFamily: "Orbitron",
+            }}
           >
-            Moon
-          </span>
-          Boxes
-        </h1>
-        <ul
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
-            gap: "20px",
-            paddingTop: "15px",
-            marginRight: "100px",
-          }}
-        >
-          <li style={{ fontSize: "24px", cursor: "pointer" }}>
-            <MdOutlineArrowCircleLeft />
-          </li>
-          <li style={{ fontSize: "24px", cursor: "pointer" }}>
-            <IoIosWater />
-          </li>
-          <li style={{ fontSize: "24px", cursor: "pointer" }}>
-            <FaWallet />
-          </li>
-          <li style={{ fontSize: "24px", cursor: "pointer" }}>
-            <IoTimer />
-          </li>
-          <li style={{ fontSize: "24px", cursor: "pointer" }}>
-            <IoMdInformationCircleOutline />
-          </li>
-          <li style={{ fontSize: "22px", cursor: "pointer" }}>
-            <SiCanvas />
-          </li>
-        </ul>
-        <button style={{ marginRight: "60px" }}>
-          <ImCross />
-        </button>
-      </div>
+            <span style={{ fontSize: "35px" }}>
+              <GiPerspectiveDiceSixFacesOne />
+            </span>
+            <span
+              style={{ color: "white", cursor: "pointer", fontWeight: "bold" }}
+            >
+              Moon
+            </span>
+            Boxes
+          </h1>
+          <ul
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+              gap: "20px",
+              paddingTop: "15px",
+              marginRight: "100px",
+            }}
+          >
+            <li style={{ fontSize: "24px", cursor: "pointer" }}>
+              <MdOutlineArrowCircleLeft />
+            </li>
+            <li style={{ fontSize: "24px", cursor: "pointer" }}>
+              <IoIosWater />
+            </li>
+            <li style={{ fontSize: "24px", cursor: "pointer" }}>
+              <FaWallet />
+            </li>
+            <li style={{ fontSize: "24px", cursor: "pointer" }}>
+              <IoTimer />
+            </li>
+            <li style={{ fontSize: "24px", cursor: "pointer" }}>
+              <IoMdInformationCircleOutline />
+            </li>
+            <li style={{ fontSize: "22px", cursor: "pointer" }}>
+              <SiCanvas />
+            </li>
+          </ul>
+          <button style={{ marginRight: "60px" }}>
+            <ImCross />
+          </button>
+        </div>
 
-      {/* Bottom Navbar */}
-      <div className="fixed bottom-0 left-0 w-full h-12 bg-yellow-300 z-10">
-        <ul
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "100px",
-            paddingTop: "15px",
-          }}
-        >
-          <li>
-            <a href="">TIER</a>
-          </li>
-          <li>
-            <a href="">MOONSHOT BALANCE</a>
-          </li>
-          <li>
-            <a href="">TOTAL NFTs</a>
-          </li>
-        </ul>
-      </div>
+        {/* Bottom Navbar */}
+        <div className="fixed bottom-0 left-0 w-full h-12 bg-yellow-300 z-10">
+          <ul
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "100px",
+              paddingTop: "15px",
+            }}
+          >
+            <li>
+              <a href="">TIER</a>
+            </li>
+            <li>
+              <a href="">MOONSHOT BALANCE</a>
+            </li>
+            <li>
+              <a href="">TOTAL NFTs</a>
+            </li>
+          </ul>
+        </div>
 
-      {/* Left Sidebar */}
-      <div className="fixed top-12 bottom-12 left-0 w-12 bg-yellow-300 z-10"></div>
+        {/* Left Sidebar */}
+        <div className="fixed top-12 bottom-12 left-0 w-12 bg-yellow-300 z-10"></div>
 
-      {/* Right Sidebar */}
-      <div className="fixed top-12 bottom-12 right-0 w-12 bg-yellow-300 z-10"></div>
+        {/* Right Sidebar */}
+        <div className="fixed top-12 bottom-12 right-0 w-12 bg-yellow-300 z-10"></div>
 
-      {/* <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}> */}
+        {/* <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}> */}
         <div className="flex items-center justify-center h-screen  p-5">
           {/* Left Side Content */}
           <div className="flex-1 max-w-[30%] text-left">
@@ -368,7 +369,7 @@ function AutoPlay() {
             />
           </div>
         </div>
-      {/* </div> */}
+        {/* </div> */}
       </div>
     </>
   );
