@@ -165,7 +165,7 @@ function AutoPlay() {
       {/* Right Sidebar */}
       <div className="fixed top-12 bottom-12 right-0 w-12 bg-yellow-300 z-10"></div>
 
-      <div style={{ backgroundImage: "url('/public/images/backgroundImg.png')" }}>
+      <div style={{ backgroundImage: "url('./public/images/backgroundImg.png')" }}>
         <div className="flex items-center justify-center h-screen  p-5">
           {/* Left Side Content */}
           <div className="flex-1 max-w-[30%] text-left">
