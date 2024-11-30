@@ -64,9 +64,7 @@ function AutoPlay() {
     {
       img: "/images/image10.jpg",
     },
-    // {
-    //   img: "/images/image11.jpg",
-    // },
+  
   ]);
   const settings = {
     dots: true,
@@ -81,7 +79,6 @@ function AutoPlay() {
 
   return (
     <>
-    <h1>add</h1>
       {/* Top Navbar */}
       <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
         <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
@@ -111,7 +108,7 @@ function AutoPlay() {
             justifyContent: "center",
             textAlign: "center",
             gap: "20px",
-            paddingTop: "10px",
+            paddingTop: "15px",
             marginRight: "100px",
           }}
         >
@@ -168,7 +165,7 @@ function AutoPlay() {
       {/* Right Sidebar */}
       <div className="fixed top-12 bottom-12 right-0 w-12 bg-yellow-300 z-10"></div>
 
-      <div style={{ backgroundImage: "url('/public/bgm.png')" }}>
+      <div style={{ backgroundImage: "url('/public/images/backgroundImg.png')" }}>
         <div className="flex items-center justify-center h-screen  p-5">
           {/* Left Side Content */}
           <div className="flex-1 max-w-[30%] text-left">
@@ -213,7 +210,7 @@ function AutoPlay() {
           </div>
 
           {/* Right Side Auto Image Changer */}
-          <div className="flex-1 max-w-[40%] h-[300px] relative overflow-hidden flex items-center justify-center">
+          <div className="flex-1 max-w-[40%] h-[400px] relative overflow-hidden flex items-center justify-center">
             {images.map((image, index) => (
               <img
                 key={index}
