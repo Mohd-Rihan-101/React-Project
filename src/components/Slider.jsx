@@ -79,7 +79,7 @@ function AutoPlay() {
   return (
     <>
       <div
-        style={{backgroundColor:"black"}}
+        style={{ backgroundImage: "url('public/images/image1.jpg')" }}
       >
         {/* Top Navbar */}
         <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
