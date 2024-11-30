@@ -79,6 +79,7 @@ function AutoPlay() {
 
   return (
     <>
+    <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}>
       {/* Top Navbar */}
       <div className="fixed top-0 left-0 w-full h-12 bg-yellow-300 z-10 flex justify-between">
         <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
@@ -165,7 +166,7 @@ function AutoPlay() {
       {/* Right Sidebar */}
       <div className="fixed top-12 bottom-12 right-0 w-12 bg-yellow-300 z-10"></div>
 
-      <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}>
+      {/* <div style={{ backgroundImage: "url('public/images/backgroundImg.png')" }}> */}
         <div className="flex items-center justify-center h-screen  p-5">
           {/* Left Side Content */}
           <div className="flex-1 max-w-[30%] text-left">
@@ -367,6 +368,7 @@ function AutoPlay() {
             />
           </div>
         </div>
+      {/* </div> */}
       </div>
     </>
   );
